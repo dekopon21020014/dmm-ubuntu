@@ -33,10 +33,8 @@ RUN apt-get update -y && \
     hash -r && \
     npm install yarn -g && \
     apt-get purge -y nodejs npm && \
-    /root/.rbenv/shims/gem install rails -v 6.1.7 && \
-    git clone https://github.com/dekopon21020014/bookers2
+    /root/.rbenv/shims/gem install rails -v 6.1.7 
 
-COPY ./.gitcredential /
 COPY ./username.txt /
 COPY ./password.txt /
 COPY ./env.sh /
