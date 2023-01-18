@@ -9,3 +9,4 @@ sudo apt install docker-ce -y
 sudo groupadd docker
 sudo gpasswd -a $USER docker
 sudo systemctl restart docker
+sudo reboot
