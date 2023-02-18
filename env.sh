@@ -1,8 +1,6 @@
 #!/bin/sh
 repo=$1
-#user=dekopon21020014:
 user=`cat username.txt`
-#pass=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
 pass=`cat password.txt`
 http=https://
 github=@github.com/
